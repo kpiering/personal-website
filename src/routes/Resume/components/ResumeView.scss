@@ -1,0 +1,49 @@
+@import './variables';
+
+.topMargin{
+  margin-top: 50px;
+}
+
+.resumeItem{
+  clear:both;
+  overflow: auto;
+  margin-bottom:20px;
+  line-height: 1.5;
+  @media screen and (max-width: $mobile_break) {
+    text-align:center;
+  }
+}
+
+.resumeItem p{
+  padding:0px;
+  margin:0px;
+}
+
+.leftCol{
+  text-align: right;
+  float:left;
+  padding-right: 25px;
+  width: 34%;
+  
+}
+
+.rightCol{
+  text-align:left;
+  float:left;
+  width: 66%
+}
+
+.bold{
+  font-weight:bold;
+}
+
+.small{
+  font-size:13px;
+  line-height: 17px;
+}
+
+.resumeCenterItem{
+  padding-top:25px;
+  text-align: center;
+  font-weight: bold;
+}

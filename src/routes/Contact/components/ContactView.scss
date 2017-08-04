@@ -1,0 +1,55 @@
+@import './variables';
+
+.contactItem{
+  margin-left: 25px;
+  padding-top:15px;
+  padding-bottom:15px;
+  border-bottom: 1px solid $second_color;
+  clear:both;
+  overflow:auto;
+  @media screen and (max-width: $small_lap_break) {
+    margin-left:0px;
+    float:none;
+  }
+}
+
+.contactLabel{
+  float:left;
+  width:85px;
+  padding-left:10px;
+}
+
+.contactDetails{
+  float:left;
+}
+
+.contactContainer{
+  font-size: 15px;
+  margin-top:48px;
+  padding-top:0px;
+  margin-left:50px;
+  margin-right:25px;
+  width: 300px;
+  float:left;
+  overflow:auto;
+  
+  @media screen and (max-width: $small_lap_break) {
+    margin-left:auto;
+    margin-right:auto;
+    float:none;
+  }
+}
+
+.sucImgContainer{
+  float:right;
+  margin-right:25px;
+  
+  @media screen and (max-width: $small_lap_break) {
+    padding-top:25px;
+    margin-left:auto;
+    margin-right:auto;
+    float:none;
+    text-align: center;
+  }
+}
+
